@@ -1,0 +1,6 @@
+<h1>Blogs</h1>
+<ul>
+    <li (click)="onClick(blog)" *ngFor="let blog of blogs">
+        <span class="badge">{{blog.id}}, {{blog.author}}</span>
+    </li>
+</ul>

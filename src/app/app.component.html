@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Angular Routing</h2>
+        </div>
+    </div>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+        <ul class="nav nav-pills">
+          <li  routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/home">Home</a></li>
+          <li routerLinkActive="active"><a   routerLink="/blog">Blog</a></li>
+          <li routerLinkActive="active"><a  routerLink="/about">About</a></li>
+        </ul>
+    </div>
+</div>
+<br/>
+
+
+<router-outlet></router-outlet>
